@@ -266,7 +266,7 @@ function game(
           $("#napim").hide();
           onGame = false
           $.post(
-            "http://x99keygame/keygameStop",
+            "http://x-99keygame/keygameStop",
             JSON.stringify({
               result: true,
             })
